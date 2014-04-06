@@ -1,6 +1,6 @@
 {
   "name": "clui",
-  "description": "A toolkit for drawing nice command line interface",
+  "description": "A Node.js toolkit for drawing nice command line interfaces",
   "main": "./lib/clui",
   "author": {
     "name": "Nathan Peck"
@@ -9,6 +9,6 @@
     "underscore": "*",
     "cli-color": "*"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "readmeFilename": "README.md"
 }
