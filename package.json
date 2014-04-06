@@ -1,5 +1,5 @@
 {
-  "name": "cli-interface",
+  "name": "clui",
   "description": "A toolkit for drawing nice command line interface",
   "main": "./lib/clui",
   "author": {
