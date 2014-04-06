@@ -34,7 +34,7 @@ __Functions__
 __Example__
 
 ```js
-var CLI = require('../lib/clui.js'),
+var CLI = require('clui'),
     clc = require('cli-color');
 
 var Line          = CLI.Line,
