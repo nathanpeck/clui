@@ -1,0 +1,14 @@
+{
+  "name": "cli-interface",
+  "description": "A toolkit for drawing nice command line interface",
+  "main": "./lib/clui",
+  "author": {
+    "name": "Nathan Peck"
+  },
+  "dependencies": {
+    "underscore": "*",
+    "cli-color": "*"
+  },
+  "version": "0.1.0",
+  "readmeFilename": "README.md"
+}
