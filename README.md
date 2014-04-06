@@ -1,7 +1,7 @@
 clui
 =============
 
-This is a NOde.js toolkit for quickly building nice looking command line interfaces which can respond to changing terminal sizes.
+This is a Node.js toolkit for quickly building nice looking command line interfaces which can respond to changing terminal sizes.
 It also includes easy to use components for building command line gauges and sparklines.
 
 <a name="line-buffer"></a>
