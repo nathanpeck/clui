@@ -3,12 +3,36 @@
   "description": "A Node.js toolkit for drawing nice command line interfaces",
   "main": "./lib/clui",
   "author": {
-    "name": "Nathan Peck"
+    "name": "Nathan Peck",
+    "email": "nathan@storydesk.com"
   },
   "dependencies": {
     "underscore": "*",
     "cli-color": "*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanpeck/clui.git"
+  },
+  "dependencies": {
+    "async": "",
+    "aws-sdk": ""
+  },
+  "keywords": [
+    "command line interface",
+    "CLI",
+    "sparkline",
+    "gauge",
+    "line",
+    "console",
+    "buffer"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/nathanpeck/clui/master/LICENSE"
+    }
+  ],
   "version": "0.1.1",
   "readmeFilename": "README.md"
 }
