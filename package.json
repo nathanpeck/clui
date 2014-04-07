@@ -7,16 +7,12 @@
     "email": "nathan@storydesk.com"
   },
   "dependencies": {
-    "underscore": "*",
+    "lodash": "*",
     "cli-color": "*"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/nathanpeck/clui.git"
-  },
-  "dependencies": {
-    "async": "",
-    "aws-sdk": ""
   },
   "keywords": [
     "command line interface",
