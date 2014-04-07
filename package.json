@@ -1,6 +1,7 @@
 {
   "name": "clui",
-  "description": "A Node.js toolkit for drawing nice command line interfaces",
+  "version": "0.1.3",
+  "description": "A Node.js toolkit for drawing nice command line tables, gauges, and sparklines.",
   "main": "./lib/clui",
   "author": {
     "name": "Nathan Peck",
@@ -29,6 +30,5 @@
       "url": "https://raw.githubusercontent.com/nathanpeck/clui/master/LICENSE"
     }
   ],
-  "version": "0.1.2",
   "readmeFilename": "README.md"
 }
