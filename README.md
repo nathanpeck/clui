@@ -133,7 +133,7 @@ var line = new Line()
 <a name="gauge"></a>
 ### Gauge(value, maxValue, gaugeWidth, dangerZone, suffix)
 
-![Picture of two gauges](docs/gauges.png)
+![Picture of two gauges](https://raw.githubusercontent.com/nathanpeck/clui/master/docs/gauges.png)
 
 Draw a basic horizontal gauge to the screen.
 
@@ -164,7 +164,7 @@ console.log(Gauge(used, total, 20, total * 0.8, human));
 <a name="sparkline"></a>
 ### Sparkline(values, suffix)
 
-![Picture of two sparklines](docs/sparklines.png)
+![Picture of two sparklines](https://raw.githubusercontent.com/nathanpeck/clui/master/docs/sparklines.png)
 
 A simple command line sparkline that draws a series of values, and highlights the peak for the period.
 It also automatically outputs the current value and the peak value at the end of the sparkline.
@@ -186,7 +186,7 @@ console.log(Sparkline(reqsPerSec, 'reqs/sec'));
 <a name="progress"></a>
 ### Progress(length)
 
-![Picture of a few progress bars](docs/progress.png)
+![Picture of a few progress bars](https://raw.githubusercontent.com/nathanpeck/clui/master/docs/progress.png)
 
 __Parameters__
 
@@ -211,7 +211,7 @@ console.log(thisProgressBar.update(10, 30));
 <a name="spinner"></a>
 ### Spinner(statusText)
 
-![Picture of a spinner](docs/spinner.gif)
+![Picture of a spinner](https://raw.githubusercontent.com/nathanpeck/clui/master/docs/spinner.gif)
 
 __Parameters__
 
