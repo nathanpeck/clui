@@ -2,7 +2,12 @@ clui
 =============
 
 This is a Node.js toolkit for quickly building nice looking command line interfaces which can respond to changing terminal sizes.
-It also includes easy to use components for building command line gauges and sparklines.
+It also includes the following easy to use components:
+
+* Gauges
+* Progress Bars
+* Sparklines
+* Spinners
 
 <a name="line-buffer"></a>
 ### LineBuffer(options)
@@ -176,6 +181,70 @@ var Sparkline = require('clui').Sparkline;
 var reqsPerSec = [10,12,3,7,12,9,23,10,9,19,16,18,12,12];
 
 console.log(Sparkline(reqsPerSec, 'reqs/sec'));
+```
+
+<a name="progress"></a>
+### Progress(length)
+
+![Picture of a few progress bars](docs/progress.png)
+
+__Parameters__
+
+* `length` - The desired length of the progress bar in characters.
+
+__Methods__
+
+* `update(currentValue, maxValue)` - Returns the progress bar content to write to stdout.
+
+__Example__
+
+```js
+var os   = require('os'),
+    clui = require('clui');
+
+var Progress = clui.Progress;
+
+var thisProgressBar = new Progress(20);
+console.log(thisProgressBar.update(10, 30));
+```
+
+<a name="spinner"></a>
+### Spinner(statusText)
+
+![Picture of a spinner](docs/spinner.gif)
+
+__Parameters__
+
+* `statusText` - The default status text to display while the spinner is spinning.
+
+__Methods__
+
+* `start()` - Show the spinner on the screen.
+* `update(statusMessage)` - Update the status message that follows the spinner.
+* `stop()` - Erase the spinner from the screen.
+
+*Note: The spinner is slightly different from other Clui controls in that it outputs
+directly to the screen, instead of just returning a string that you output yourself.*
+
+__Example__
+
+```js
+var CLI = require('../lib/clui.js'),
+    Spinner = CLI.Spinner;
+
+var countdown = new Spinner('Exiting in 10 seconds...  ');
+
+countdown.start();
+
+var number = 10;
+setInterval(function () {
+  number--;
+  countdown.message('Exiting in ' + number + ' seconds...  ');
+  if (number === 0) {
+    process.stdout.write('\n');
+    process.exit(0);
+  }
+}, 1000);
 ```
 
 License
