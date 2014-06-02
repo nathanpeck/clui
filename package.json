@@ -1,15 +1,14 @@
 {
   "name": "clui",
-  "version": "0.2.0",
-  "description": "A Node.js toolkit for drawing nice command line tables, gauges, and sparklines.",
+  "version": "0.2.1",
+  "description": "A Node.js toolkit for drawing nice command line tables, gauges, spinners, and sparklines.",
   "main": "./lib/clui",
   "author": {
     "name": "Nathan Peck",
     "email": "nathan@storydesk.com"
   },
   "dependencies": {
-    "lodash": "*",
-    "cli-color": "*"
+    "cli-color": "0.3.2"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,8 @@
     "command line interface",
     "CLI",
     "sparkline",
+    "progress bar",
+    "spinner",
     "gauge",
     "line",
     "console",
