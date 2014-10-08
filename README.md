@@ -10,6 +10,8 @@ This is a Node.js toolkit for quickly building nice looking command line interfa
 
 __Updates__
 
+_October 8, 2014_ - Adding Line.contents() for fetching the contents of a line as a string.
+
 _June 2, 2014_ - Fixed a crash caused by inability to locate the required trim helper in the latest version of cli-color. (And locked down the version of the cli-color dependency to stop this from ever happening again.) Also removed lodash as a dependency in favor of vanilla JS, to keep installs faster and smaller than ever.
 
 <a name="line-buffer"></a>
