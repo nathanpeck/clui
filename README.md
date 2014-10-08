@@ -99,6 +99,7 @@ __Chainable Functions__
 * `fill()` - At the end of a line fill the rest of the columns to the right edge of the
   terminal with whitespace to erase any content there.
 * `output()` - Print the generated line of text to the console.
+* `contents()` - Return the contents of this line as a string.
 
 __Example__
 
