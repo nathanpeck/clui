@@ -35,7 +35,7 @@ __Functions__
 * `height()` - Return the height of the `LineBuffer`, in case you specified it as `'console'`
 * `width()` - Return the width of the `LineBuffer`, in case you specified it as `'console'`
 * `addLine(Line)` - Put a `Line` object into the `LineBuffer`.
-* `file()` - If you don't have enough lines in the buffer this will fill the rest of the lines
+* `fill()` - If you don't have enough lines in the buffer this will fill the rest of the lines
    with empty space.
 * `output()` - Draw the `LineBuffer` to screen.
 
