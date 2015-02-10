@@ -191,7 +191,7 @@ __Parameters__
 
 __Methods__
 
-* `update(currentValue, maxValue)` - Returns the progress bar content to write to stdout.
+* `update(percent)` - Returns the progress bar content to write to stdout.
 
 __Example__
 
@@ -202,7 +202,7 @@ var os   = require('os'),
 var Progress = clui.Progress;
 
 var thisProgressBar = new Progress(20);
-console.log(thisProgressBar.update(10, 30));
+console.log(thisProgressBar.update(0.3));
 ```
 
 <a name="spinner"></a>
