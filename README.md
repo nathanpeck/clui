@@ -1,4 +1,4 @@
-clui
+clui [![Changelog Status](https://changelogs.md/img/changelog-check-green.svg)](https://changelogs.md/github/nathanpeck/clui/)
 =============
 
 This is a Node.js toolkit for quickly building nice looking command line interfaces which can respond to changing terminal sizes. It also includes the following easy to use components:
