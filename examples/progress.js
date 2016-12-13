@@ -10,7 +10,7 @@ var lengths = [10, 20, 30, 40, 50];
 console.log('\nCtrl/Command + C to quit...\n\n\n\n\n\n\n\n\n');
 
 function drawProgress () {
-  process.stdout.write('\033[9A');
+  process.stdout.write('\x1b[9A');
   var blankLine = new Line().fill().output();
 
   var headers = new Line()
