@@ -1,7 +1,7 @@
 var CLI = require('../lib/clui.js'),
 		Spinner = CLI.Spinner;
 
-var countdown = new Spinner('Exiting in 10 seconds...  ');
+var countdown = new Spinner('Exiting in 10 seconds...  ', ['⣾','⣽','⣻','⢿','⡿','⣟','⣯','⣷']);
 
 console.log('\n');
 countdown.start();
