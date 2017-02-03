@@ -107,6 +107,7 @@ __Example__
 
 ```js
 var clui = require('clui'),
+    clc = require('cli-color'),
     Line = clui.Line;
 
 var headers = new Line()
