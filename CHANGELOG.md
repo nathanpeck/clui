@@ -1,5 +1,9 @@
 ## Version History [![Changelog Status](https://changelogs.md/img/changelog-check-green.svg)](https://changelogs.md/github/nathanpeck/clui/)
 
+### [0.3.2] - 2017-6-12
+
+Updated README.md with some missing/incorrect dependency references for cli-color and clui. Updated incorrect method signature from 'update' to 'message' in the Spinner example.
+
 ### [0.3.1] - 2014-10-08
 
 Adding Line.contents() for fetching the contents of a line as a string.
@@ -15,4 +19,3 @@ Removed lodash as a dependency in favor of vanilla JS, to keep installs faster a
 ### [0.1.0] - 2014-04-06
 
 Initial release
-
