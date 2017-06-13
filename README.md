@@ -226,7 +226,7 @@ directly to the screen, instead of just returning a string that you output yours
 __Example__
 
 ```js
-var CLI = require('../lib/clui.js'),
+var CLI = require('clui'),
     Spinner = CLI.Spinner;
 
 var countdown = new Spinner('Exiting in 10 seconds...  ');
