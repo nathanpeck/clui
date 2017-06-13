@@ -217,7 +217,7 @@ __Parameters__
 __Methods__
 
 * `start()` - Show the spinner on the screen.
-* `update(statusMessage)` - Update the status message that follows the spinner.
+* `message(statusMessage)` - Update the status message that follows the spinner.
 * `stop()` - Erase the spinner from the screen.
 
 *Note: The spinner is slightly different from other Clui controls in that it outputs
