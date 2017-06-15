@@ -1,6 +1,6 @@
 {
   "name": "clui",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "A Node.js toolkit for drawing nice command line tables, gauges, spinners, and sparklines.",
   "main": "./lib/clui",
   "author": {
