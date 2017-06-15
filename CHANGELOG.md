@@ -1,5 +1,9 @@
 ## Version History [![Changelog Status](https://changelogs.md/img/changelog-check-green.svg)](https://changelogs.md/github/nathanpeck/clui/)
 
+### [0.3.6] - 2017-6-15
+
+Progress bar now can print percentage progressBars when passing in a single value in update().
+
 ### [0.3.5] - 2017-6-15
 
 Progress and Gauge bars will also show the correct length when value/currentValue is <= 0. Updated examples to include new clear() function. Spinner will clear the line after each draw loop so that shorter update messages will render correctly.
