@@ -1,4 +1,5 @@
 var CLI = require('../lib/clui.js'),
+    clear = CLI.Clear,
     clc = require('cli-color'),
     os  = require('os');
 
@@ -11,7 +12,7 @@ var requestSeries = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 var errorSeries = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 
 function draw() {
-	console.log(clc.reset);
+	clear()
 
 	var blankLine = new Line().fill().output();
 

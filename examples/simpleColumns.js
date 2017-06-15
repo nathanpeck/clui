@@ -1,7 +1,7 @@
 var CLI = require('../lib/clui.js'),
     clc = require('cli-color');
 
-var Line          = CLI.Line;
+var Line = CLI.Line;
 
 var blankLine = new Line().fill().output();
 
