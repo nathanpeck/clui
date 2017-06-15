@@ -28,7 +28,7 @@ function drawProgress () {
     var websiteLine = new Line()
     .padding(2)
     .column('Item #' + index, 20, [clc.cyan])
-    .column(thisProgressBar.update(statuses[index], lengths[index]), 40)
+    .column(thisProgressBar.update(statuses[index] / lengths[index]), 40)
     .fill()
     .output();
   }
