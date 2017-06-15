@@ -214,6 +214,8 @@ console.log(thisProgressBar.update(10, 30));
 __Parameters__
 
 * `statusText` - The default status text to display while the spinner is spinning.
+* `style` - Array of graphical characters used to draw the spinner. By default,
+  on Windows: ['|', '/', '-', '\'], on other platforms: ['◜','◠','◝','◞','◡','◟']
 
 __Methods__
 
@@ -230,7 +232,7 @@ __Example__
 var CLI = require('clui'),
     Spinner = CLI.Spinner;
 
-var countdown = new Spinner('Exiting in 10 seconds...  ');
+var countdown = new Spinner('Exiting in 10 seconds...  ', ['⣾','⣽','⣻','⢿','⡿','⣟','⣯','⣷']);
 
 countdown.start();
 

@@ -12,7 +12,7 @@ console.log('\nCtrl/Command + C to quit...\n\n\n\n\n\n\n\n\n');
 
 function drawProgress () {
   clear()
-  
+
   var blankLine = new Line().fill().output();
 
   var headers = new Line()
@@ -28,11 +28,11 @@ function drawProgress () {
     var thisProgressBar = new Progress(20);
 
     var websiteLine = new Line()
-    .padding(2)
-    .column('Item #' + index, 20, [clc.cyan])
-    .column(thisProgressBar.update(statuses[index], lengths[index]), 40)
-    .fill()
-    .output();
+      .padding(2)
+      .column('Item #' + index, 20, [clc.cyan])
+      .column(thisProgressBar.update(statuses[index], lengths[index]), 40)
+      .fill()
+      .output();
   }
 
   blankLine.output();
