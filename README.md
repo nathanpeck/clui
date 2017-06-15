@@ -192,18 +192,24 @@ __Parameters__
 
 __Methods__
 
-* `update(currentValue, maxValue)` - Returns the progress bar content to write to stdout.
+* `update(currentValue, maxValue)` - Returns the progress bar min/max content to write to stdout. Allows for dynamic max values.
+* `update(percent)` - Returns the progress bar content as a percentage to write to stdout. `0.0 > value < 1.0`.
 
 __Example__
 
 ```js
-var os   = require('os'),
-    clui = require('clui');
+var clui = require('clui');
 
 var Progress = clui.Progress;
 
 var thisProgressBar = new Progress(20);
 console.log(thisProgressBar.update(10, 30));
+
+// or
+
+var thisPercentBar = new Progress(20);
+console.log(thisPercentBar.update(0.4));
+
 ```
 
 <a name="spinner"></a>
