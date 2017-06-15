@@ -207,13 +207,15 @@ console.log(thisProgressBar.update(10, 30));
 ```
 
 <a name="spinner"></a>
-### Spinner(statusText)
+### Spinner(statusText, style)
 
 ![Picture of a spinner](https://raw.githubusercontent.com/nathanpeck/clui/master/docs/spinner.gif)
 
 __Parameters__
 
 * `statusText` - The default status text to display while the spinner is spinning.
+* `style` - Array of graphical characters used to draw the spinner. By default,
+  on Window: ['|', '/', '-', '\'], on other platforms: ['◜','◠','◝','◞','◡','◟']
 
 __Methods__
 
@@ -230,7 +232,8 @@ __Example__
 var CLI = require('clui'),
     Spinner = CLI.Spinner;
 
-var countdown = new Spinner('Exiting in 10 seconds...  ');
+// Heroku-style spinner
+var countdown = new Spinner('Exiting in 10 seconds...  ', ['⣾','⣽','⣻','⢿','⡿','⣟','⣯','⣷']);
 
 countdown.start();
 
