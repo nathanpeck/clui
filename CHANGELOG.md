@@ -1,5 +1,9 @@
 ## Version History [![Changelog Status](https://changelogs.md/img/changelog-check-green.svg)](https://changelogs.md/github/nathanpeck/clui/)
 
+### [0.3.3] - 2017-6-15
+
+Added new clear() function to CLI. Used to cleanly clear the screen and reduce flickering. Progress and Gauge bars will also show the correct length when value/currentValue is <= 0. Updated examples to include new clear() function. Spinner will clear the line after each draw loop so that shorter update messages will render correctly.
+
 ### [0.3.2] - 2017-6-12
 
 Updated README.md with some missing/incorrect dependency references for cli-color and clui. Updated incorrect method signature from 'update' to 'message' in the Spinner example.

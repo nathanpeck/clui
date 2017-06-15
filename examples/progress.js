@@ -12,6 +12,7 @@ console.log('\nCtrl/Command + C to quit...\n\n\n\n\n\n\n\n\n');
 
 function drawProgress () {
   clear()
+  
   var blankLine = new Line().fill().output();
 
   var headers = new Line()

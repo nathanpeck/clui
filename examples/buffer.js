@@ -1,4 +1,5 @@
 var CLI = require('../lib/clui.js'),
+    clear = CLI.Clear,
     clc = require('cli-color');
 
 var Line          = CLI.Line,
@@ -7,7 +8,7 @@ var Line          = CLI.Line,
 var drawTimeout;
 
 function draw() {
-	console.log(clc.reset);
+	clear()
 
 	var xLocation = Math.floor(process.stdout.columns / 2) - 35;
 	if(xLocation < 0)
