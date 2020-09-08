@@ -1,4 +1,4 @@
-clui [![Changelog Status](https://changelogs.md/img/changelog-check-green.svg)](https://changelogs.md/github/nathanpeck/clui/)
+clui
 =============
 
 This is a Node.js toolkit for quickly building nice looking command line interfaces which can respond to changing terminal sizes. It also includes the following easy to use components:
@@ -9,6 +9,8 @@ This is a Node.js toolkit for quickly building nice looking command line interfa
 * Spinners
 
 __Updates__
+
+[Changelog](https://changelogs.md/github/nathanpeck/clui/)
 
 _October 8, 2014_ - Adding Line.contents() for fetching the contents of a line as a string.
 
