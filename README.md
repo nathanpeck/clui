@@ -1,6 +1,8 @@
 clui
 =============
 
+[![Inline docs](http://inch-ci.org/github/nathanpeck/clui.svg?branch=master)](http://inch-ci.org/github/nathanpeck/clui)
+
 This is a Node.js toolkit for quickly building nice looking command line interfaces which can respond to changing terminal sizes. It also includes the following easy to use components:
 
 * Gauges
